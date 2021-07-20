@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         edt_fuelconsumption = (EditText) findViewById(R.id.edt5);
         mButton = (Button) findViewById(R.id.button2);
 
-        Places.initialize(getApplicationContext(), "AIzaSyCsUrEfi-7DsNxkqg7jWVnaXoZrg49hGPw");
+        Places.initialize(getApplicationContext(), "here already expired key");
         edt_source.setFocusable(false);
         edt_source.setOnClickListener(new View.OnClickListener() {
             @Override
